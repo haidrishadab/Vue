@@ -15,7 +15,7 @@ export default{
   <h1>Hello <span>{{ name }}</span></h1>
   <p v-if="status==='active'">User is Active</p>
   <p v-else-if="status==='pending'">User is pending</p>
-  <p v-else>User is inactive</p>
+  <p v-else>User is Blocked</p>
   <p>Hello Daniel</p>
 </template>
 
